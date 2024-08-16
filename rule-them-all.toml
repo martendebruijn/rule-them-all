@@ -1,0 +1,50 @@
+[colors]
+black = "#000"
+red = "#E26B73"
+green = "#6AC38A"
+yellow = "#E6C176"
+blue = "#5E9CCF"
+magenta = "#DF671F"
+cyan = "#51B6C3"
+white = "#EBEBFF"
+brightBlack = "#525A67"
+brightRed = "#C9525A"
+brightGreen = "#51AA71"
+brightYellow = "#CDA85D"
+brightBlue = "#4583B6"
+brightMagenta = "#C64E06"
+brightCyan = "#389DAA"
+brightWhite = "#D2D2E6"
+
+[font]
+size = 12
+family = '"FiraCode Nerd Font", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace'
+weight = "normal"
+line_height = 1.5
+letter_spacing = 0
+
+[theme]
+background = "#282C34"
+foreground = "$colors.white"
+
+# Applications
+
+[hyper]
+cursorColor = "$theme.foreground"
+cursorAccentColor = "$theme.foreground"
+foregroundColor = "$theme.foreground"
+backgroundColor = "$theme.background"
+selectionColor = ""
+borderColor = ""
+fontSize = "$font.size"
+fontFamily = "$font.family"
+uiFontFamily = "$font.family"
+fontWeight = "$font.weight"
+fontWeightBold = "bold"
+cursorShape = "BLOCK"
+cursorBlink = true
+css = ""
+termCss = ""
+padding = ""
+colors = ["$colors"]
+windowSize = []
